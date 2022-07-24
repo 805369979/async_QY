@@ -6,7 +6,7 @@
 
     <groupId>com.github.805369979</groupId>
     <artifactId>async_QY</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -145,20 +145,21 @@
         </developer>
     </developers>
     <scm>
-        <connection>scm:git@github.com:805369979/async_QY.git</connection>
-        <developerConnection>scm:git@github.com:805369979/async_QY.git</developerConnection>
+        <connection>https://github.com/805369979/async_QY.git</connection>
+        <developerConnection>https://github.com/805369979</developerConnection>
         <url>https://github.com/805369979/async_QY</url>
     </scm>
     <distributionManagement>
         <snapshotRepository>
-            <id>sonatype</id>
+            <id>ossrh</id>
             <url>https://s01.oss.sonatype.org/content/repositories/snapshots/</url>
         </snapshotRepository>
         <repository>
-            <id>sonatype</id>
-            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>ossrh</id>
+            <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2</url>
         </repository>
     </distributionManagement>
+
 
     <build>
         <plugins>
@@ -239,4 +240,15 @@
             </plugin>
         </plugins>
     </build>
+    <profiles>
+        <profile>
+            <id>disable-javadoc-doclint</id>
+            <activation>
+                <jdk>[1.8,)</jdk>
+            </activation>
+            <properties>
+                <additionalparam>-Xdoclint:none</additionalparam>
+            </properties>
+        </profile>
+    </profiles>
 </project>
