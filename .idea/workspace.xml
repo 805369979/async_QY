@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d273997-8c64-4eaf-97a2-502220c859e8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/MainApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/Async.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/Async.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/callback/DefaultCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/callback/DefaultCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/callback/ICallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/callback/ICallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/callback/IWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/callback/IWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/MissionProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/MissionProcess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/demo/Node8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/entity/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/entity/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/entity/WorkResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/entity/WorkResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/enums/ResultState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/enums/ResultState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/exception/SkippedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/exception/SkippedException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/executor/timer/SystemClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/executor/timer/SystemClock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/template/AbstractNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/template/AbstractNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/async/commission/util/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/async/commission/util/SpringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CommissionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CommissionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2CNiGLMgqddSoRltzgeRqeRkVUm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -24,9 +51,39 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/qinbinbin/Downloads/openProject/async_QY/src/main/java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CommissionTest.testAnno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="async_QY" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CommissionTest" />
+      <option name="METHOD_NAME" value="testAnno" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CommissionTest.testAnno" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

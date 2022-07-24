@@ -1,4 +1,4 @@
-package com.qbb.async;
+package async;
 
 
 import org.springframework.boot.SpringApplication;

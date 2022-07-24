@@ -1,4 +1,4 @@
-package com.qbb.async.commission.enums;
+package async.commission.enums;
 
 /**
  * 节点执行结果状态

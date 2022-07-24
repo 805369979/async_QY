@@ -1,13 +1,11 @@
-package com.qbb.async.commission.callback;
+package async.commission.callback;
 
-import com.qbb.async.commission.entity.WorkResult;
+import async.commission.entity.WorkResult;
 
 /**
  * 每个执行单元执行完毕后，会回调该接口</p>
  * 需要监听执行结果的，实现该接口即可
- *
- * @author wuweifeng wrote on 2019-11-19.
- */
+ * */
 @FunctionalInterface
 public interface ICallback<T, V> {
 

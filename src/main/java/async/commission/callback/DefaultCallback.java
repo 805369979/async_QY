@@ -1,7 +1,7 @@
-package com.qbb.async.commission.callback;
+package async.commission.callback;
 
 
-import com.qbb.async.commission.entity.WorkResult;
+import async.commission.entity.WorkResult;
 
 /**
  * 默认回调类，如果不设置的话，会默认给这个回调

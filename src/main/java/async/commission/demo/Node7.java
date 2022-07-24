@@ -1,8 +1,9 @@
-package com.qbb.async.commission.demo;
+package async.commission.demo;
 
-import com.qbb.async.commission.entity.WorkResult;
-import com.qbb.async.commission.executor.timer.SystemClock;
-import com.qbb.async.commission.template.AbstractNode;
+import async.commission.entity.WorkResult;
+import async.commission.executor.timer.SystemClock;
+import async.commission.template.AbstractNode;
+
 
 import java.util.Arrays;
 import java.util.Map;

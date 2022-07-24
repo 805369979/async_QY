@@ -1,6 +1,6 @@
-import com.qbb.async.MainApplication;
-import com.qbb.async.commission.demo.MissionProcess;
-import com.qbb.async.commission.util.SpringUtil;
+import async.MainApplication;
+import async.commission.demo.MissionProcess;
+import async.commission.util.SpringUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,7 +14,7 @@ public class CommissionTest {
 
     @Test
     public void testAnno() throws ExecutionException, InterruptedException {
-        MissionProcess missionProcess = (MissionProcess)SpringUtil.getBean("MissionProcess");
+        MissionProcess missionProcess = (MissionProcess) SpringUtil.getBean("MissionProcess");
         missionProcess.run();
     }
 }

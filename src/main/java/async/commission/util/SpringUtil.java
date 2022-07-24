@@ -1,4 +1,4 @@
-package com.qbb.async.commission.util;
+package async.commission.util;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

@@ -1,6 +1,6 @@
-package com.qbb.async.commission.callback;
+package async.commission.callback;
 
-import com.qbb.async.commission.template.AbstractNode;
+import async.commission.template.AbstractNode;
 
 import java.util.Map;
 

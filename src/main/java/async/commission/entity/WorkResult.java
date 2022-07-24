@@ -1,6 +1,6 @@
-package com.qbb.async.commission.entity;
+package async.commission.entity;
 
-import com.qbb.async.commission.enums.ResultState;
+import async.commission.enums.ResultState;
 import lombok.ToString;
 
 /**

@@ -1,9 +1,9 @@
-package com.qbb.async.commission.demo;
+package async.commission.demo;
 
-import com.qbb.async.commission.entity.Context;
-import com.qbb.async.commission.Async;
-import com.qbb.async.commission.executor.timer.SystemClock;
-import com.qbb.async.commission.template.AbstractNode;
+import async.commission.Async;
+import async.commission.entity.Context;
+import async.commission.executor.timer.SystemClock;
+import async.commission.template.AbstractNode;
 import org.springframework.stereotype.Component;
 
 import java.util.Map;

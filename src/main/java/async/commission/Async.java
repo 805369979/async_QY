@@ -1,7 +1,7 @@
-package com.qbb.async.commission;
+package async.commission;
 
-import com.qbb.async.commission.entity.Context;
-import com.qbb.async.commission.template.AbstractNode;
+import async.commission.entity.Context;
+import async.commission.template.AbstractNode;
 
 import java.util.*;
 import java.util.concurrent.*;
@@ -73,11 +73,11 @@ public class Async<T, V> {
     @SuppressWarnings("unchecked")
     private static void totalWorkers(List<AbstractNode> abstractNodes, Set<AbstractNode> set) {
         set.addAll(abstractNodes);
-        for (AbstractNode wrapper : abstractNodes) {
-            if (wrapper.getSonHandler() == null) {
+        for (AbstractNode node : abstractNodes) {
+            if (node.getSonHandler() == null) {
                 continue;
             }
-            List<AbstractNode> wrappers = wrapper.getSonHandler();
+            List<AbstractNode> wrappers = node.getSonHandler();
             totalWorkers(wrappers, set);
         }
     }
